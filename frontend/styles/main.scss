@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(168, 168, 168);
+    background-color: #fff;
     font-family: 'Assistant', sans-serif;
     color: #07104d;
 }
@@ -150,5 +150,69 @@ header{
     }
     img{
         max-width: 100%;
+    }
+}
+
+.testiomonial-section-heading{
+
+    background: linear-gradient(#FFFFFF 0%, #F7F9FF 100%);
+    min-height: 506px;
+    padding-top: 50px;
+    h3{
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+
+    }
+    p{
+        font-size: 18px;
+    }
+
+}
+.testimonial-section-content{
+    margin-top: -300px;
+    padding-bottom: 50px;
+    .card-testimonial{
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 70px;
+        .testimonial-content{
+            min-height: 493px;
+        }
+        h3{
+            font-size: 22px;
+        }
+        .testimoni{
+            font-size: 26px;
+            color: #6E6E6E;
+            min-height: 180px;
+        }
+        .trip-to{
+            font-size: 22px;
+            color: #6E6E6E;
+        }
+        hr{
+            margin-top: 100px;
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-need-help{
+        background-color: #F2F2F2;
+        color: #C3C3C3;
+        font-size: 20px;
+        &:hover{
+            background-color: #ffffff;
+            color: #C3C3C3;
+        }
+    }
+    .btn-get-started{
+        background-color: #FF9E53;
+        color: #FFFFFF;
+        font-size: 20px;
+        &:hover{
+            background-color: #ffbf8e;
+            color: #FFFFFF;
+        }
     }
 }
